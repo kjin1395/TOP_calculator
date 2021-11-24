@@ -2,28 +2,35 @@
 
 <html lang=en>
     <head>
-        <meta charset="utf-8">
+        <meta charset='utf-8'>
         <title>Basic Calculator</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet' href='style.css'>
     </head>
-    <script src="script.js" defer></script>
+    <script src='script.js' defer></script>
 
     <body>
-        <p>Test text. Please see console for now.</p>
-        <div class="display">912038</div>
-        <div class="numpad">
-            <button value='0'>0</button>
-            <button value='1'>1</button>
-            <button value='2'>2</button>
-            <button value='3'>3</button>
-            <button value='4'>4</button>
-            <button value='5'>5</button>
-            <button value='6'>6</button>
-            <button value='7'>7</button>
-            <button value='8'>8</button>
-            <button value='9'>9</button>
-            <button>Enter</button>
-            <button>Clear</button>
+        <div class='display'>0</div>
+        <div class='numpad'>
+            <input type='button' value='0'>
+            <input type='button' value='1'>
+            <input type='button' value='2'>
+            <input type='button' value='3'>
+            <input type='button' value='4'>
+            <input type='button' value='5'>
+            <input type='button' value='6'>
+            <input type='button' value='7'>
+            <input type='button' value='8'>
+            <input type='button' value='9'>
+        </div>
+        <div class='operators'>
+            <input type='button' value='+' class='addition'>
+            <input type='button' value='-' class='subtraction'>
+            <input type='button' value='*' class='multiplication'>
+            <input type='button' value='/' class='division'>
+        </div>
+        <div>
+            <input type='button' value='=' class='operate'>
+            <input type='button' value='Clear' class='clear'>
         </div>
     </body>
 </html>
