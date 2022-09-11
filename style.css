@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+} 
+
+.calculator {
+    display: grid;
+}
+
+.display {
+    margin: 10px 0;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around; */
+}
+
+.numpad input {
+    padding: 15px;
+}
+
+.addition {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+
+.equals {
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
+
+/* .operators {
+    display: flex;
+}
+
+.operators input {
+    padding: 15px 25px;
+}
+
+.submit-container {
+    display: flex;
+}
+
+.submit-container input {
+    padding: 15px 25px;
+} */
